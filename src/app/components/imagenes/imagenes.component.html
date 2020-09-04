@@ -1,0 +1,12 @@
+<div *ngFor="let personage of personages" class="card-group">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <img [src]="personage.img" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ personage.name }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
